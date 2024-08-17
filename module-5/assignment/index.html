@@ -1,0 +1,134 @@
+<!-- 1) Create an HTML structure and add CSS and Bootstrap to it. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  Author Name -->
+    <meta name="author" content="Nowshen Khan">
+    <!--  SEO for Facebook / Twitter / Linkdin -->
+    <meta name="og:title" content="Ostad Module-5 Assignment">
+    <meta name="og:description" content=" In this assignment, I have to build a template using HTML,  CSS, Bootstrap">
+    <!--  SEO for Google Only -->
+    <meta name="title" content="Ostad Module-5 Assignment">
+    <meta name="description" content=" In this assignment, I have to build a template using HTML,  CSS, Bootstrap">
+    <!--  Robo -->
+    <meta name="robots" content="index">
+
+    <title>M5 Assignment</title>
+    <!-- CSS and Bootstrap only -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+
+<body>
+    <!-- 5) Create a navbar via Bootstrap and it must have a dropdown menu. -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Nowshen Khan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Project 1</a></li>
+                            <li><a class="dropdown-item" href="#">Project 2</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">All Project</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <br>
+
+    <!-- 4) Put text inside an h1 tag and give it a background color. -->
+    <h1 class="heading">This is a Heading</h1>
+
+    <br>
+
+
+    <!-- 3) Create a paragraph text and its color will be red. -->
+    <p class="paragraph">This is a Paragraph</p>
+
+    <br>
+
+    <!-- 2) Create six buttons by Bootstrap Each button should have different colors and properties. -->
+    <div>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-info">Info</button>
+    </div>
+
+    <br>
+
+
+    <!-- 6) Create a forms Input group through Bootstrap and it must have Sizing set to Small. -->
+
+    <form>
+        <div class="input-group input-group-sm mb-3">
+            <span class="input-group-text" id="basic-addon1">@</span>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                aria-describedby="basic-addon1">
+        </div>
+
+        <div class="input-group input-group-sm mb-3">
+            <input type="text" class="form-control" placeholder="Your mail address" aria-label="Recipient's username"
+                aria-describedby="basic-addon2">
+            <span class="input-group-text" id="basic-addon2">@example.com</span>
+        </div>
+
+        <div class="input-group input-group-sm mb-3">
+            <span class="input-group-text">Message</span>
+            <textarea class="form-control" aria-label="With textarea"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <br>
+
+    <!-- 7) Suppose you have three h2 tags, now you have to place the h2 three horizontally. And it must be in reverse. How to do it with bootstrap. (Hints: flex-row-reverse) -->
+
+    <div class="d-flex flex-row-reverse">
+        <h2 class="p-2">H2 tag-1</h2>
+        <h2 class="p-2">H2 tag-2</h2>
+        <h2 class="p-2">H2 tag-3</h2>
+    </div>
+
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+.center {
+	margin-left: 200px;
+}
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.icon {
+	width: 50px;
+	
+}
