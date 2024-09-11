@@ -16,3 +16,4 @@
 | 8. [Module - 14](module-14)  | Problem Solving...                |       02       |
 | 9. [Module - 15](module-15)  | EXAM WEEK (Assignment + LiveTest) |    01 + 01     |
 | 10. [Module - 16](module-16) | Problem Solving...                |       03       |
+| 11. [Module - 17](module-17) | Problem Solving...                |       02       |
