@@ -5,7 +5,6 @@ Problem Statement: Write a program to check whether a number is Repdigit or not.
 Input: The input consists of a positive integer number N.
 Output: The output will print either "true" or "false".
 Constraints: 0 ≤ |N| ≤ 10000
-
 Example: Enter number
 Input: 55
 Output: true
