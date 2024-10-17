@@ -19,3 +19,4 @@
 | 11. [Module - 17](module-17) | Problem Solving...                |       02       |
 | 12. [Module - 19](module-19) | Problem Solving...                |       02       |
 | 13. [Module - 21](module-21) | EXAM WEEK (Assignment + LiveTest) |    01 + 00     | Student Backend Database
+| 14. [Module - 22](module-22) | Problem Solving..(Repeat module-7)|       04       |
