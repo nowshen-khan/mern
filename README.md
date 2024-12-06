@@ -22,3 +22,4 @@
 | 14. [Module - 22](module-22) | Problem Solving..(Repeat module-9)|       04       |
 | 15. [Module - 23](module-23) | Problem Solving...                |       04       |
 | 16. [Module - 24](module-24) | Problem Solving.(Repeat module-13)|       03       |
+| 17. [Module - 27](module-27) | EXAM WEEK (Assignment + LiveTest) |    01 + 01     |
